@@ -12,5 +12,9 @@ plugins:
 header_pages:
   - about.md
 
-exclude:
+exclude:  # replaces Jekyll's default list, so the defaults are repeated here
   - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .bundle/
+  - vendor/
